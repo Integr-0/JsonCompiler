@@ -1,0 +1,30 @@
+{
+  "printLn": "Hello, World!",
+  "var_2": "true",
+  "if": {
+    "condition": "var_2 = true",
+    "execute": {
+      "if": {
+        "condition": "var_1 = true",
+        "execute": {
+          "var_w": "true",
+          "while": {
+            "condition": "var_w = true",
+            "execute": {
+              "printLn": "Hello, People!",
+              "var_w": "false",
+              "readLn": "var_a",
+              "repeat": {
+                "amount": "var_a",
+                "execute": {
+                  "printLn": "Huh? var_i"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "exit": ""
+}
